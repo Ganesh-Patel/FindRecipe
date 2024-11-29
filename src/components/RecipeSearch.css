@@ -1,0 +1,63 @@
+/* RecipeSearch.css */
+
+.recipe-search {
+    display: flex;
+    gap: 0.5rem;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .recipe-search input {
+    width: 300px; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .recipe-search input:focus {
+    border-color: #007bff;
+  }
+  
+  .recipe-search button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .recipe-search button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .recipe-search button:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .recipe-search {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .recipe-search input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .recipe-search button {
+      width: 100%;
+    }
+  }
+  
