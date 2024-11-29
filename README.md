@@ -23,4 +23,4 @@ A React-based application that allows users to search for recipes, view recipe d
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/kishlaychandan/Guruji-Astro-Assignment
+   https://github.com/Ganesh-Patel/FindRecipe
