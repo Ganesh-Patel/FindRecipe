@@ -36,7 +36,7 @@ const RecipeDetailsPage = () => {
     <div className="recipe-details-page">
       <ToastContainer />
       {selectedRecipe ? (
-        <div>
+        <div style={{width:"100vw"}}>
           <RecipeCard recipe={selectedRecipe} />
           <button onClick={handleToggleFavorites}>
             {isFavorite ? 'Remove from Favorites' : 'Add to Favorites'}
