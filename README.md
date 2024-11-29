@@ -73,13 +73,12 @@ npm run dev
 ### 1. Home Page  
 ![Home Page](https://github.com/user-attachments/assets/d9dea40d-8cb3-4d8e-95da-1ceb2fdb8230) 
 
+![sss3](https://github.com/user-attachments/assets/814555d7-e5b6-46df-8d83-cf6ce83b288c)
+![ssss2](https://github.com/user-attachments/assets/9b378532-11f1-4be0-b236-acfc83227f55)
+![sssss1](https://github.com/user-attachments/assets/b735bdcf-76a7-4c77-966c-ca5ab5721f86)
 
 
-*Explore products with a user-friendly interface.*  
-
-### 2. Products   
-![Products](https://github.com/user-attachments/assets/f864221b-1fa6-403b-bd0a-11fe41a22a60)  
-*Manage your selected products easily.*   
+ 
 
 ---
 
