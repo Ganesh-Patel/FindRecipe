@@ -1,4 +1,4 @@
-# Guruji Astro Recipe Search Application
+# Recipe Search Application
 
 A React-based application that allows users to search for recipes, view recipe details, and manage their favorite recipes. The application includes features for searching recipes, viewing details, and saving recipes to a favorites list.
 
