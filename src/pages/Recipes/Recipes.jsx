@@ -13,6 +13,7 @@ function Recipes() {
 const API_KEY= import.meta.env.VITE_REACT_APP_GEMINI_API;
 console.log(API_KEY);
 
+
   async function getRecipe(e) {
     e.preventDefault();
     setLoading(true);
@@ -43,7 +44,7 @@ console.log(API_KEY);
   <>
     <div className={styles.recipeContainer}>
       <h1 className={styles.heading}>Find a Recipe</h1>
-      <form onSubmit={getRecipe} className={styles.formContainer}>
+      <form  className={styles.formContainer}>
         <input
           type="text"
           value={dish}
@@ -51,13 +52,14 @@ console.log(API_KEY);
           placeholder="Enter dish name"
           className={styles.inputField}
         />
-        <button
-          type="submit"
-          className={`${styles.submitButton} ${loading ? styles.disabled : ''}`}
-          disabled={loading}
-        >
-          Get Recipe
-        </button>
+         <button
+            type="submit"
+            className={`${styles.submitButton} ${loading ? styles.disabled : ''}`}
+            onClick={getRecipe}
+            disabled={loading || !dish}
+          >
+            Get Recipe
+          </button>
       </form>
       {loading && <p className={styles.loadingMessage}>Loading...</p>}
       {error && <p className={styles.errorMessage}>{error}</p>}
