@@ -1,6 +1,6 @@
-import React from 'react';
-import { useRecipe } from '../RecipeContext'; // Adjust the path if necessary
-import './FavoritesPage.css';
+import React from "react";
+import { useRecipe } from "../RecipeContext"; // Adjust the path if necessary
+import "./FavoritesPage.css";
 
 const FavoritesPage = () => {
   const { favorites, removeFromFavorites } = useRecipe();
@@ -28,14 +28,16 @@ const FavoritesPage = () => {
             <h3>{recipe.label}</h3>
             <img src={recipe.image} alt={recipe.label} />
             <p>{recipe.source}</p>
-            <button onClick={() => handleRemoveFromFavorites(recipe.uri)}>Remove from Favorites</button>
+            <button onClick={() => handleRemoveFromFavorites(recipe.uri)}>
+              Remove from Favorites
+            </button>
           </div>
         ))}
       </div>
     );
   };
 
-  return renderFavorites(); // Single return with conditional logic handled
+  return <div className="favorites-container">{renderFavorites()}</div>;
 };
 
 export default FavoritesPage;
