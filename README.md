@@ -54,7 +54,7 @@ To run the Recipe Finder application locally, follow these steps:
 
 ```bash
 git clone https://github.com/Ganesh-Patel/FindRecipe.git
-cd task-manager
+cd FindRecipe
 ```
 ### Install Dependencies
 ```bash
