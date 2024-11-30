@@ -43,7 +43,7 @@ Welcome to the **Recipe Finder Application**! This web app allows you to search 
 
 ## Setup Instructions
 
-To run the Task Manager application locally, follow these steps:
+To run the Recipe Finder application locally, follow these steps:
 
 ### Prerequisites
 
